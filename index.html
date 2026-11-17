@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Избранные рядом — Авито</title>
+    <link rel="icon" href="assets/banner-illustration.png" />
+    <link rel="stylesheet" href="assets/avito-fonts.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="app" inert aria-busy="true"></main>
+    <div id="loader" role="status">
+      <div class="loader-dot"></div>
+      <p>Загружаем избранное</p>
+      <button id="retry-load" hidden>Повторить</button>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
